@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учитель информатики | Анна Сергеевна Коваленко</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+<div class="blob blob-3"></div>
+<div class="blob blob-4"></div>
+<nav class="navbar">
+    <div class="logo">&lt;InfoTeacher /&gt;</div>
+    <div class="nav-links">
+        <a href="#home">Главная</a>
+        <a href="#about">Об учителе</a>
+        <a href="#achievements">Достижения</a>
+        <a href="#methods">Методика</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+    </div>
+    <div class="burger">☰</div>
+</nav>
+
+<section id="home" class="hero">
+    <div class="hero-container">
+        
+        
+        <div class="hero-left">
+            <h1 class="hero-name">
+                Анастасия Викторовна<br>
+                <span class="hero-surname">Крившенко</span>
+            </h1>
+            <p class="hero-school">МБОУ СОШ № 6</p>
+        </div>
+
+        <!-- ПРАВЫЙ НИЖНИЙ ТЕКСТ -->
+        <div class="hero-right">
+            <div class="info-card">
+                <p> Преподаватель информатики  </p>
+                <p>высшей квалификационной категории</p>
+                <p>с 15-летним стажем.</p>
+                <p>Эксперт ЕГЭ, лауреат конкурса «Учитель года — 2023». </p>
+                <p>Её ученики ежегодно получают высокие баллы на экзаменах</p>
+                <p>и занимают призовые места на олимпиадах.</p>
+                <p>Разработала авторскую методику обучения программированию. </p>
+               
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ОГРОМНЫЙ ПОЛУКРУГ -->
+    <div class="hero-semicircle"></div>
+
+    <!-- ФОТО ПОВЕРХ ПОЛУКРУГА -->
+    <div class="hero-photo">
+        <img src="препод.PNG" alt="Учитель информатики">
+    </div>
+
+    <!-- БИРЮЗОВАЯ ПОЛОСКА -->
+    <div class="teal-border"></div>
+</section>
+<!-- БЛОК "ОБ УЧИТЕЛЕ" -->
+<section id="about" class="about">
+    <div class="about-container">
+        
+        <!-- ЛЕВАЯ ЧАСТЬ: ТЕКСТ -->
+        <div class="about-left">
+            <h2 class="about-title">Об учителе</h2>
+            
+            <div class="about-section">
+                <h3 class="about-subtitle">Образование</h3>
+                <p class="about-text">
+                    Уссурийский государственный педагогический университет, факультет информатики и вычислительной техники (2008).<br>
+                    За время учёбы она не только освоила основы программирования и алгоритмизации, но и участвовала в научных конференциях, где представляла работы по методике раннего обучения детей основам IT. <br>
+                    В 2021 году прошла курсы повышения квалификации по современным методикам преподавания информатики, а в 2023-м — по использованию искусственного интеллекта в образовании.<br>
+                     Регулярно участвует в профессиональных вебинарах и стажировках, что позволяет ей держать руку на пульсе современных IT-трендов.
+                </p>
+            </div>
+            
+            <div class="about-section">
+                <h3 class="about-subtitle">Опыт работы</h3>
+                <p class="about-text">
+                    15 лет в МБОУ СОШ № 6, учитель информатики высшей категории.<br>
+                    Руководитель школьного IT-клуба. Эксперт по проверке ОГЭ и ЕГЭ по информатике.
+                </p>
+            </div>
+        </div>
+        
+        <!-- ПРАВАЯ ЧАСТЬ: СЛАЙДЕР С ДИПЛОМАМИ -->
+        <div class="about-right">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="диплом.PNG" alt="Диплом 1">
+                    </div>
+                    <div class="slide">
+                        <img src="курсы1.PNG" alt="Диплом 2">
+                    </div>
+                    <div class="slide">
+                        <img src="курсы2.PNG" alt="Диплом 3">
+                    </div>
+                </div>
+                <button class="slider-btn prev">❮</button>
+                <button class="slider-btn next">❯</button>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-- БЛОК "ДОСТИЖЕНИЯ" (С АНИМИРОВАННЫМИ СЧЁТЧИКАМИ) -->
+<section id="achievements" class="achievements">
+    <div class="achievements-container">
+        <h2 class="achievements-title">Достижения</h2>
+        <div class="achievements-grid">
+            
+            <!-- Счётчик 1: 100 баллов ЕГЭ -->
+            <div class="achievement-card counter-card">
+                <div class="achievement-icon">
+                    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2Z" />
+                    </svg>
+                </div>
+                <div class="counter-number" data-target="100">0</div>
+                <div class="counter-label">баллов ЕГЭ</div>
+                <p class="achievement-text">Каждый год около 10 учеников сдают ЕГЭ по информатике на максимальный балл</p>
+            </div>
+            
+            <!-- Счётчик 2: 30 призёров олимпиад -->
+            <div class="achievement-card counter-card">
+                <div class="achievement-icon">
+                    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M8 21L12 17L16 21" />
+                        <path d="M12 17V3" />
+                        <path d="M6 3H18" />
+                        <path d="M6 3L8 9H16L18 3" />
+                    </svg>
+                </div>
+                <div class="counter-number" data-target="30">0</div>
+                <div class="counter-label">призёров олимпиад</div>
+                <p class="achievement-text">Победители и призёры муниципальных и всероссийских олимпиад за 5 лет</p>
+            </div>
+            
+            <!-- Счётчик 3: 15 лет опыта -->
+            <div class="achievement-card counter-card">
+                <div class="achievement-icon">
+                    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 6h16v12H4z" />
+                        <path d="M8 10h8" />
+                        <path d="M8 14h5" />
+                    </svg>
+                </div>
+                <div class="counter-number" data-target="15">0</div>
+                <div class="counter-label">лет опыта</div>
+                <p class="achievement-text">Преподавательская деятельность в школе и индивидуальная подготовка</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- БЛОК "МЕТОДИКА ОБУЧЕНИЯ" -->
+<section id="methods" class="methods">
+    <div class="methods-container">
+        <h2 class="methods-title">Методика обучения</h2>
+        
+        <div class="methods-grid">
+            
+            <!-- Карточка 1 (слева, всплывает слева) -->
+            <div class="method-card method-card-left">
+                <div class="method-icon">
+                    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                        <circle cx="12" cy="12" r="3"/>
+                    </svg>
+                </div>
+                <div class="method-content">
+                    <h3 class="method-heading">Индивидуальный подход</h3>
+                    <p class="method-text">В основе методики лежит проектный подход — ученики создают реальные IT-проекты: от простых сайтов до телеграм-ботов и небольших приложений. Это позволяет сразу применять полученные знания на практике и видеть результат своей работы.</p>
+                </div>
+            </div>
+            
+            <!-- Карточка 2 (справа, всплывает справа) -->
+            <div class="method-card method-card-right">
+                <div class="method-icon">
+                    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                        <line x1="8" y1="21" x2="16" y2="21"/>
+                        <line x1="12" y1="17" x2="12" y2="21"/>
+                        <path d="M8 7h8"/>
+                        <path d="M8 11h6"/>
+                    </svg>
+                </div>
+                <div class="method-content">
+                    <h3 class="method-heading">Проектное обучение</h3>
+                    <p class="method-text">Ученики создают реальные IT-проекты: сайты, ботов, программы. Знания сразу применяются на практике.</p>
+                </div>
+            </div>
+            
+            <!-- Карточка 3 (слева, всплывает слева) -->
+            <div class="method-card method-card-left">
+                <div class="method-icon">
+                    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                        <path d="M8 7h8"/>
+                        <path d="M8 11h6"/>
+                    </svg>
+                </div>
+                <div class="method-content">
+                    <h3 class="method-heading">Подготовка к экзаменам</h3>
+                    <p class="method-text">Особое внимание уделяется подготовке к ОГЭ и ЕГЭ. Разбираются типовые задания, даются практические лайфхаки и проводятся пробные экзамены в условиях, максимально приближённых к реальным.</p>
+                </div>
+            </div>
+            
+            <!-- Карточка 4 (справа, всплывает справа) -->
+            <div class="method-card method-card-right">
+                <div class="method-icon">
+                    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M2 12h20M12 2v20M4 4l16 16M20 4L4 20"/>
+                    </svg>
+                </div>
+                <div class="method-content">
+                    <h3 class="method-heading">Цифровая грамотность</h3>
+                    <p class="method-text">Развитие навыков работы с информацией, безопасность в сети, критическое мышление — база для современного человека.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- БЛОК "ОТЗЫВЫ КОЛЛЕГ И УЧЕНИКОВ" -->
+<section id="reviews" class="reviews">
+    <div class="reviews-container">
+        <h2 class="reviews-title">Отзывы коллег и учеников</h2>
+        
+        <div class="reviews-scroll-wrapper">
+            <div class="reviews-scroll">
+                
+                <!-- Отзыв 1 -->
+                <div class="review-card">
+                    <div class="review-author-name">Татьяна Васильевга</div>
+                    <div class="review-author-role">Директор МБОУ СОШ № 6</div>
+                    <p class="review-text">Анастасия Викторовна — педагог с большой буквы. Её уроки информатики ждут с нетерпением не только ученики, но и коллеги. Профессионал высочайшего уровня.</p>
+                </div>
+                
+                <!-- Отзыв 2 -->
+                <div class="review-card">
+                    <div class="review-author-name">Мария Андреевна</div>
+                    <div class="review-author-role">Родитель ученицы 9 класса</div>
+                    <p class="review-text">Благодаря Анастасие Викторовне моя дочь полюбила программирование и поступила в IT-класс. Огромное спасибо за индивидуальный подход и терпение!</p>
+                </div>
+                
+                <!-- Отзыв 3 -->
+                <div class="review-card">
+                    <div class="review-author-name">Дмитрий С.</div>
+                    <div class="review-author-role">Выпускник, студент ИТМО</div>
+                    <p class="review-text">Самый лучший учитель! Объясняет сложные темы простым языком. Готовит к ЕГЭ так, что ничего не боишься. Спасибо за веру в нас!</p>
+                </div>
+                
+                <!-- Отзыв 4 -->
+                <div class="review-card">
+                    <div class="review-author-name">Светлана Петровна</div>
+                    <div class="review-author-role">Завуч по учебной работе</div>
+                    <p class="review-text">Как завуч, могу отметить высокий уровень методической работы Анастасии Викторовны. Её открытые уроки — всегда событие для всей школы.</p>
+                </div>
+                
+                <!-- Отзыв 5 (новый) -->
+                <div class="review-card">
+                    <div class="review-author-name">Алексей Николаевич</div>
+                    <div class="review-author-role">Учитель физики, коллега</div>
+                    <p class="review-text">Работать с Анастасией Викторовной — одно удовольствие. Всегда делится опытом, помогает молодым педагогам. Настоящий лидер в коллективе!</p>
+                </div>
+                
+                <!-- Отзыв 6 (новый) -->
+                <div class="review-card">
+                    <div class="review-author-name">Ирина Владимировна</div>
+                    <div class="review-author-role">Мама ученика 11 класса</div>
+                    <p class="review-text">Сын сдал ЕГЭ на 95 баллов благодаря Анастасие Викторовне! Она не просто учитель, а наставник, который зажигает интерес к предмету. Огромное спасибо!</p>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- Кнопки для листания -->
+        <button class="scroll-btn scroll-left">❮</button>
+        <button class="scroll-btn scroll-right">❯</button>
+        
+    </div>
+</section>
+<!-- БЛОК "КОНТАКТЫ" -->
+<section id="contacts" class="contacts">
+    <div class="contacts-container">
+        
+        <div class="contacts-row">
+            <!-- ЛЕВАЯ КОЛОНКА: ЗАГОЛОВОК + ИНФОРМАЦИЯ -->
+            <div class="contacts-left">
+                <h2 class="contacts-title">Контакты</h2>
+                <div class="contacts-info">
+                    <div class="contact-item">
+                        <div class="contact-label">📍 Адрес школы</div>
+                        <div class="contact-value">г. Уссурийск, ул. Агеева, 59</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-label">📞 Телефон школы</div>
+                        <div class="contact-value">+7 (4234) 32-27-92</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-label">✉️ Email школы</div>
+                        <div class="contact-value">sh-sh6@mail.ru</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-label">🌐 Сайт школы</div>
+                        <a href="#" class="contact-link">https://schoo6uss.gosuslugi.ru</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-label"> Часы работы </div>
+                        <a href="#" class="contact-link">Пн-Пт 07:00-20:00</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ПРАВАЯ КОЛОНКА: КАРТА -->
+            <div class="contacts-right">
+                <div class="contacts-map">
+                    <iframe 
+                        src="https://yandex.ru/map-widget/v1/?ll=131.945,43.797&z=17&pt=131.945,43.797"
+                        width="100%" 
+                        height="100%" 
+                        frameborder="0" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<script src="script.js"></script>
+<!-- ФУТЕР -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">&lt;InfoTeacher /&gt;</div>
+        <div class="footer-copy">© 2025 Анастасия Викторовна Крившенко. Все права защищены.</div>
+        <div class="footer-links">
+            <a href="#home">Главная</a>
+            <a href="#about">Об учителе</a>
+            <a href="#achievements">Достижения</a>
+            <a href="#methods">Методика</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#contacts">Контакты</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
